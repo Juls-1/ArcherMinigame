@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Prueba1"
+run/main_scene="uid://dfis8mh5ls1av"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -59,3 +60,12 @@ left_mouse={
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
+rendering_device/driver="opengl3"
+rendering_device/fallback_to_vulkan=false
+rendering_device/fallback_to_d3d12=false
+gl_compatibility/nvidia_disable_threaded_optimization=false
+gl_compatibility/fallback_to_angle=false
+gl_compatibility/fallback_to_native=false
+gl_compatibility/fallback_to_gles=false
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
