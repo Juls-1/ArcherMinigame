@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="InvItem" load_steps=3 format=3 uid="uid://64bqdv7xivvv"]
+
+[ext_resource type="Script" uid="uid://d3acds8sfvk3d" path="res://inventory/inventory_item.gd" id="1_j5nwi"]
+[ext_resource type="Texture2D" uid="uid://t4ih0jg1h62y" path="res://art/Environment/slime-icon.png" id="2_fdg8p"]
+
+[resource]
+script = ExtResource("1_j5nwi")
+name = "slime"
+texture = ExtResource("2_fdg8p")
+metadata/_custom_type_script = "uid://d3acds8sfvk3d"

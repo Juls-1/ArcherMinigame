@@ -326,13 +326,12 @@ animations = [{
 radius = 4.0
 
 [node name="Player" type="CharacterBody2D"]
-y_sort_enabled = true
 script = ExtResource("1_fvtld")
 inv = ExtResource("2_fvtld")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_5nkdk")
-animation = &"idle"
+animation = &"sw-attack"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 3)

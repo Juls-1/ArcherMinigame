@@ -7,7 +7,7 @@
 height = 80.0
 
 [node name="arrow" type="Area2D"]
-scale = Vector2(0.1, 0.095)
+scale = Vector2(0.15, 0.14337154)
 script = ExtResource("1_yspra")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
