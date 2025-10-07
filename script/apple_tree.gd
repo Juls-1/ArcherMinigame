@@ -19,7 +19,7 @@ func _process(delta):
 	if state == "apples":
 		$AnimatedSprite2D.play("apples")
 		if player_in_area:
-			if Input.is_action_just_pressed("e"):
+			if Input.is_action_just_pressed("interact"):
 				state = "no apples"
 				#print("picked")
 				drop_apple()
