@@ -35,6 +35,7 @@ func _physics_process(delta: float) -> void:
 	$Marker2D.look_at(get_global_mouse_position())
 
 	play_anim(direction)
+	#print("Player center: ", global_position, "  colliding: ", get_last_slide_collision())
 
 
 func shoot_arrow() -> void:
@@ -105,3 +106,6 @@ func collect(item):
 
 func player():
 	pass
+
+
+	

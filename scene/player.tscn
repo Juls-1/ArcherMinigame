@@ -345,6 +345,7 @@ limit_right = 950
 limit_bottom = 995
 
 [node name="Inv_UI" parent="." instance=ExtResource("4_ct4mp")]
+z_index = 1
 offset_left = -41.0
 offset_top = -80.0
 offset_right = 41.0
